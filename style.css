@@ -193,7 +193,7 @@ header.sticky ul li a{
 
 }
 .heading.white p{
-    color: blue;
+    color: rgb(9, 9, 58);
 
 }
 
@@ -204,6 +204,9 @@ header.sticky ul li a{
     flex-direction: row;
 
 
+}
+.work{
+    background-color: rgb(208, 208, 214);
 }
 
 .services .content .servicesBx{
@@ -227,7 +230,7 @@ border-bottom: 4px solid rgb(105, 105, 231);
 }
 
 .contact{
-    background:grey;
+    background: rgb(208, 208, 214);
 
 
 }
@@ -242,12 +245,15 @@ border-bottom: 4px solid rgb(105, 105, 231);
 
 .formBx form h3, 
 .contactInfo h3{
-    color: white;
+    color: rgb(9, 9, 58);
     font-size: 20px;
     font-weight: 500;
     margin: 10px;
 
 }
+.content .contactInfo p{
+    color: rgb(9, 9, 58);
+} 
 .formBx form input{
     margin-bottom:20px;
     padding: 15px;
@@ -255,11 +261,12 @@ border-bottom: 4px solid rgb(105, 105, 231);
     background: transparent;
     border: none;
     outline: none;
-    background: red;
-    color: yellow;
+    background: white;
+    color: black ;
     resize: vertical;
 
 }
+
 .formTextArea{
     margin-bottom:20px;
     padding: 15px;
@@ -267,8 +274,8 @@ border-bottom: 4px solid rgb(105, 105, 231);
     background: transparent;
     border: none;
     outline: none;
-    background: red;
-    color: yellow;
+    background: white;
+    color: white;
     resize: vertical;
     height: 70px;
 
@@ -283,7 +290,8 @@ border-bottom: 4px solid rgb(105, 105, 231);
     color: green;
 }
 .formBx form input[type="submit"]{
-    background-color: blue;
+    background-color: rgb(9, 9, 58);
+    color:white;
     max-width: 250px;
     cursor: pointer;
     font-weight: 600;
@@ -317,7 +325,7 @@ border-bottom: 4px solid rgb(105, 105, 231);
 }
 
 .contactInfoBx .box .text{
-    color: blue;
+    color: rgb(9, 9, 58);
     margin-left: 20px;
     font-size: 16px;
     flex-direction: column;
@@ -325,7 +333,7 @@ border-bottom: 4px solid rgb(105, 105, 231);
 }
 
 .contactInfoBx .box .text h3{
-    color: blue;
+    color: rgb(9, 9, 58);
     font-weight: 500;
     margin: 0;
 
@@ -334,7 +342,7 @@ border-bottom: 4px solid rgb(105, 105, 231);
 .contactInfoBx .box .text p, address{
     font-style:normal;
     font-weight: 300;
-    color:gold;
+    color: black;
 
 }
 
@@ -347,12 +355,12 @@ border-bottom: 4px solid rgb(105, 105, 231);
 }
 
 footer.copyright{
-    background:blue;
+    background: rgb(9, 9, 58);
     color: white;
     padding: 10px;
     margin-bottom: 0%;
     text-align: center;
-    ;
+    height: 50px;
 
 }
 
@@ -368,7 +376,7 @@ footer.copyright{
     }
     header .menu{
         position: fixed;
-        background:blue;
+        background: rgb(9, 9, 58);
         display:block;
         top: 75px;
         left: -100%;
@@ -376,7 +384,7 @@ footer.copyright{
         width: 100%;
         height: 100vh;
         text-align: center;
-        border-top: 1px solid blue;
+        border-top: 1px solid rgb(9, 9, 58);
         transition: 0.5s;
 
     }
@@ -407,7 +415,7 @@ footer.copyright{
     }
     header .menu.active{
         position: fixed;
-        background:blue;
+        background: rgb(9, 9, 58);
         display:block;
         top: 75px;
         left:0;
@@ -424,16 +432,16 @@ footer.copyright{
     }
     .banner h2{
         font-size: 1.5em;
-        color: blue;
+        color: white;
 
 
     }
     .banner h3{
         font-size: 1em;
-        color: blue;
+        color: white;
     }
     .banner h2 span{
-        color: blue;
+        color: white;
     }
     
     .textBx{
