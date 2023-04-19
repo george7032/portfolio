@@ -189,7 +189,7 @@ header.sticky ul li a{
 }
 
 .services{
-    background-color: rgb(208, 208, 214);
+    background-color: rgb(166, 166, 182) ;
 
 }
 .heading.white p{
@@ -205,8 +205,17 @@ header.sticky ul li a{
 
 
 }
+/*my recent jobs*/
+
 .work{
-    background-color: rgb(208, 208, 214);
+    background-color:rgb(180, 180, 182) ;
+}
+
+.work .workCOntentBx{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .services .content .servicesBx{
@@ -275,7 +284,7 @@ border-bottom: 4px solid rgb(105, 105, 231);
     border: none;
     outline: none;
     background: white;
-    color: white;
+    color: black;
     resize: vertical;
     height: 70px;
 
@@ -477,7 +486,8 @@ footer.copyright{
     .heading h2{
         font-size: 24px;
     }
-
-
-     
+    .content .serviceBx{
+        display: block;
+        flex-direction: column;
+    }
 }
